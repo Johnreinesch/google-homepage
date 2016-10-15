@@ -3,18 +3,26 @@
 	text-align: right;
 }
 .logo {
-	text-align: center;
-	margin-top: 500px;
+	display: block;
+    text-align: -webkit-center;
+	padding-top: 200px;
 }
 .searchbox {
-	
+	display: block;
+    text-align: -webkit-center;
 }
 span {
 	color: red;
 }
+.text {
+	display: block;
+    text-align: -webkit-center;
+}
 .footer-left {
-	
+	display: block;
+    text-align: -webkit-center;
 }
 footer.right {
-	
+	display: block;
+    text-align: -webkit-center;
 }
