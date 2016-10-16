@@ -1,15 +1,48 @@
+body {
+	font-family: arial, sans-serif;
+}
 .header {
-	position: absolute;
-	text-align: right;
+	float: right;
+	position: relative;
+	font-size: 13px;
+	padding-top: 10px;
+	color: #000;
+}
+.header a {
+	text-decoration: none;
+	color: #3c3737;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.header a:hover {
+	text-decoration: underline;
+}
+.header img {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.gmail .images {
+	display: inline-block;
 }
 .logo {
 	display: block;
     text-align: -webkit-center;
-	padding-top: 200px;
+	padding-top: 190px;
 }
 .searchbox {
 	display: block;
     text-align: -webkit-center;
+}
+textarea {
+	height: 30px;
+	margin-top: 30px;
+}
+.searchbox img {
+    background-size: 24px 24px;
+    height: 23px;
+    width: 23px;
+	padding-bottom: 5px;
+	padding-right: 15px;
 }
 span {
 	color: red;
@@ -17,12 +50,41 @@ span {
 .text {
 	display: block;
     text-align: -webkit-center;
+	font-size: small;
+}
+.text a {
+	text-decoration: line-through;
 }
 .footer-left {
-	display: block;
-    text-align: -webkit-center;
+	float: left;
+	padding-top: 225px;
+	font-size: 13px;
 }
 footer.right {
+	float: right;
+	padding-top: 225px;
+	font-size: 13px;
+}
+.footer-left a {
+	text-decoration: none;
+	color: #3c3737;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.footer-left a:hover {
+	text-decoration: underline;
+}.footer-right a {
+	text-decoration: none;
+	color: #3c3737;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.footer-right a:hover {
+	text-decoration: underline;
+}
+.button {
 	display: block;
-    text-align: -webkit-center;
+    text-align: -webkit-center;	
+	height: 36px;
+	padding: 15px;
 }
