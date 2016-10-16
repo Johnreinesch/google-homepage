@@ -44,6 +44,22 @@ textarea {
 	padding-bottom: 5px;
 	padding-right: 15px;
 }
+button {
+	display: inline-block;
+    text-align: -webkit-center;	
+	text-decoration: none;
+	border: 1px solid #f2f2f2;
+	height: 40px;
+	width: 135px;
+	color: #757575;
+	background-color: #f2f2f2;
+	}
+button:hover {
+	color: #222;
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
 span {
 	color: red;
 }
@@ -55,15 +71,23 @@ span {
 .text a {
 	text-decoration: line-through;
 }
+.footer {
+	background-color: #f2f2f2;
+	height: 30px;
+	width: 100%;
+	margin-top: 220px;
+	padding-top: 15px;
+}
 .footer-left {
 	float: left;
-	padding-top: 225px;
 	font-size: 13px;
 }
-footer.right {
+.footer-right {
 	float: right;
-	padding-top: 225px;
 	font-size: 13px;
+}
+.footer-left .footer-right {
+	display: inline-block;
 }
 .footer-left a {
 	text-decoration: none;
@@ -73,7 +97,8 @@ footer.right {
 }
 .footer-left a:hover {
 	text-decoration: underline;
-}.footer-right a {
+}
+.footer-right a {
 	text-decoration: none;
 	color: #3c3737;
 	padding-left: 10px;
@@ -81,10 +106,4 @@ footer.right {
 }
 .footer-right a:hover {
 	text-decoration: underline;
-}
-.button {
-	display: block;
-    text-align: -webkit-center;	
-	height: 36px;
-	padding: 15px;
 }
