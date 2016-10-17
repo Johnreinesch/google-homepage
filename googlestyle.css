@@ -1,23 +1,27 @@
 body {
 	font-family: arial, sans-serif;
 }
-.header {
+header {
 	float: right;
 	position: relative;
 	font-size: 13px;
 	padding-top: 10px;
 	color: #000;
 }
-.header a {
+header li {
+	display: inline-block;
+	list-style-type: none;
+}
+header a {
 	text-decoration: none;
 	color: #3c3737;
 	padding-left: 10px;
 	padding-right: 10px;
 }
-.header a:hover {
+header a:hover {
 	text-decoration: underline;
 }
-.header img {
+header img {
 	padding-left: 10px;
 	padding-right: 20px;
 }
@@ -32,19 +36,20 @@ body {
 .searchbox {
 	display: block;
     text-align: -webkit-center;
+	padding-top: 25px;
 }
-textarea {
+form input {
+	background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFOR2Ei8BcbCeDV3GdY4S93JMM6cWAkRcO9WiRn7SXBTLqc-_A');
+	background-repeat: no-repeat;
+    background-position: right; 
+	background-size: 25px;
 	height: 30px;
-	margin-top: 30px;
+	width: 600px;
 	font-size: 18px;
+	border: 1px solid #dcdcdc;
 }
-.searchbox img {
-
-	background-size: 24px 24px;
-    height: 23px;
-    width: 23px;
-	padding-bottom: 5px;
-	padding-right: 15px;
+.button {
+	position: relative;
 }
 button {
 	display: inline-block;
@@ -55,6 +60,7 @@ button {
 	width: 135px;
 	color: #757575;
 	background-color: #f2f2f2;
+	font-weight: bold;
 	}
 button:hover {
 	color: #222;
@@ -94,7 +100,7 @@ span {
 }
 .footer-left a {
 	text-decoration: none;
-	color: #3c3737;
+	color: #666;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -103,7 +109,7 @@ span {
 }
 .footer-right a {
 	text-decoration: none;
-	color: #3c3737;
+	color: #666;
 	padding-left: 10px;
 	padding-right: 10px;
 }
